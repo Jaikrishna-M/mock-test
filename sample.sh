@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "build success"
-echo "new changes"
+echo "new change for jenkins trigger"
