@@ -10,6 +10,7 @@ pipeline{
     }
     stage('run the script'){
       steps{
+        sh 'sudo chmod +x sample.sh'
         sh './sample.sh' 
       }
     }
